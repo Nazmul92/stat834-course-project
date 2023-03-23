@@ -1,0 +1,54 @@
+---
+title: "Design and analysis of Photonic Crystal Fiber (PCF) based optical sensor"
+author: Nazmul Hossen
+output: powerpoint_presentation
+date: "2023-03-16"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Outlines
+- Introduction to PCF
+- How data are generated
+- Different statistical tests
+
+
+## Photonic Crystal Fiber (PCF)
+
+- A kind of optical fiber that uses photonic crystals to form the cladding around the core of the cable.
+
+
+- A low-loss periodic dielectric medium constructed using a periodic array of microscopic air holes that run along the entire fiber length. 
+
+- Light travels through the core using the refraction property of light, which occurs because of the difference between the refractive indices of the core and cladding.
+
+- Use total internal reflection or light confinement in hollow core methods to propagate light
+
+![Basic PCF structure (https://www.techopedia.com)](https://i.imgur.com/2sKPmRA.png)
+
+## Designed PCF
+
+![Figure: designed PCF structure](https://i.imgur.com/jfsiGba.png)
+
+## Simulator
+![Comsol multiphysics (https://www.comsol.com)](https://i.imgur.com/QE41yUK.png)
+
+## Simulated data
+![Figure: data sample](https://i.imgur.com/KCoHtdb.png)
+
+## Slide with R Output
+
+
+
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
